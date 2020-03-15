@@ -38,8 +38,14 @@
             "after": ["<C-r>"]
         },
         {
-            "before": ["c", "c"],
-            "after": ["c", "w"]
+            "before": ["K"],
+            "after": [],
+            "commands": [
+              {
+                "command": "editor.action.showDefinitionPreviewHover",
+                "args" : []
+              }
+            ]
         }
     ],
     "vim.visualModeKeyBindings": [
@@ -64,5 +70,8 @@
     "workbench.colorCustomizations": {
         "editorSuggestWidget.selectedBackground": "#5e81ac",
         "editorSuggestWidget.highlightForeground": "#ff9200",
-    }
+    },
+    "python.jediEnabled": false,
+    "outline.showVariables": false,
+    "go.useLanguageServer": true
 }
