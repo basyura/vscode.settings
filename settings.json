@@ -1,0 +1,68 @@
+{
+    "vim.timeout": 500,
+    "vim.useSystemClipboard": true,
+    "vim.scroll": 20,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["<C-j>"],
+            "after": ["<Esc>"]
+        },
+        {
+            "before": ["<C-e>"],
+            "after": ["<Esc>","$", "a"]
+        },
+        {
+            "before": ["<C-a>"],
+            "after": ["<Esc>", "0", "i"]
+        },
+        {
+            "before": ["<C-d>"],
+            "after": ["<Del>"]
+        },
+    ],
+    "vim.normalModeKeyBindings": [
+        {
+            "before": ["<C-j>"],
+            "after": ["<Esc>"]
+        },
+        {
+            "before": ["<C-e>"],
+            "after": ["$"]
+        },
+        {
+            "before": ["0"],
+            "after": ["^"]
+        },
+        {
+            "before": ["U"],
+            "after": ["<C-r>"]
+        },
+        {
+            "before": ["c", "c"],
+            "after": ["c", "w"]
+        }
+    ],
+    "vim.visualModeKeyBindings": [
+        {
+            "before": ["<C-j>"],
+            "after": ["<Esc>"]
+        },
+        {
+            "before": ["v", "v"],
+            "after": ["$", "h"]
+        },
+        {
+            "before": ["<C-e>"],
+            "after": ["$","h"]
+        }
+    ],
+    "editor.fontSize": 13,
+    "terminal.integrated.fontSize": 13,
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": false,
+
+    "workbench.colorCustomizations": {
+        "editorSuggestWidget.selectedBackground": "#5e81ac",
+        "editorSuggestWidget.highlightForeground": "#ff9200",
+    }
+}
