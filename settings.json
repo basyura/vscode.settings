@@ -46,6 +46,10 @@
                 "args" : []
               }
             ]
+        },
+        {
+          "before": ["I"],
+          "after": ["i", " ", "<Left>"]
         }
     ],
     "vim.visualModeKeyBindings": [
