@@ -49,5 +49,9 @@
     {
         "key": "ctrl+[IntlRo]",
         "command": "-workbench.action.navigateForward"
+    },
+    {
+        "key": "cmd+n",
+        "command": "-workbench.action.files.newUntitledFile"
     }
 ]

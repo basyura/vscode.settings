@@ -66,6 +66,8 @@
       "after": ["i", " ", "<Left>"]
     }
   ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+  ],
   "vim.visualModeKeyBindings": [
     {
       "before": ["<C-j>"],
@@ -96,5 +98,9 @@
   "editor.parameterHints.enabled": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "search.quickOpen.includeHistory": false,
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.startupEditor": "newUntitledFile"
 }
