@@ -1,4 +1,5 @@
 {
+  "vim.leader": "m",
   "vim.timeout": 500,
   "vim.useSystemClipboard": true,
   "vim.scroll": 20,
@@ -22,6 +23,16 @@
     {
       "before": ["<C-o>"],
       "after": ["<Esc>", "o"]
+    },
+    {
+      "before": ["<C-k>"],
+      "after": [],
+      "commands": [
+        {
+          "command": "deleteAllRight",
+          "args": []
+        }
+      ]
     }
   ],
   "vim.normalModeKeyBindings": [
@@ -67,6 +78,32 @@
     }
   ],
   "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<Leader>", "c"],
+      "after": [],
+      "commands": [
+        {
+          "command": "editor.action.commentLine",
+          "args": []
+        }
+      ]
+    },
+    {
+      "before": ["<Leader>", "r"],
+      "commands": [
+        {
+          "command": "editor.action.rename"
+        }
+      ]
+    },
+    {
+      "before": ["<C-k>"],
+      "commands": [
+        {
+          "command": "editor.action.revealDefinition"
+        }
+      ]
+    }
   ],
   "vim.visualModeKeyBindings": [
     {
@@ -80,13 +117,22 @@
     {
       "before": ["<C-e>"],
       "after": ["$", "h"]
+    },
+    {
+      "before": ["<Leader>", "c"],
+      "after": [],
+      "commands": [
+        {
+          "command": "editor.action.commentLine",
+          "args": []
+        }
+      ]
     }
   ],
   "editor.fontSize": 13,
   "terminal.integrated.fontSize": 13,
   "editor.minimap.enabled": false,
   "breadcrumbs.enabled": false,
-
   "workbench.colorCustomizations": {
     "editorSuggestWidget.selectedBackground": "#5e81ac",
     "editorSuggestWidget.highlightForeground": "#ff9200",
@@ -102,5 +148,7 @@
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.startupEditor": "newUntitledFile"
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.editor.showIcons": false,
+  "workbench.iconTheme": null
 }

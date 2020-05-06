@@ -1,57 +1,56 @@
 // Place your key bindings in this file to override the defaultsauto[]
 [
-    {
-        "key": "ctrl+.",
-        "command": "workbench.action.nextEditor"
-    },
-    {
-        "key": "shift+cmd+]",
-        "command": "-workbench.action.nextEditor"
-    },
-    {
-        "key": "ctrl+,",
-        "command": "workbench.action.previousEditor"
-    },
-    {
-        "key": "shift+cmd+[",
-        "command": "-workbench.action.previousEditor"
-    },
-    {
-        "key": "ctrl+q",
-        "command": "workbench.action.closeActiveEditor"
-    },
-    {
-        "key": "cmd+w",
-        "command": "-workbench.action.closeActiveEditor"
-    },
-    {
-        "key": "ctrl+3",
-        "command": "-workbench.action.openEditorAtIndex3"
-    },
-    {
-        "key": "ctrl+k",
-        "command": "editor.action.revealDefinition",
-        "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
-    },
-    {
-        "key": "f12",
-        "command": "-editor.action.revealDefinition",
-        "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
-    },
-    {
-        "key": "cmd+p",
-        "command": "-workbench.action.quickOpen"
-    },
-    {
-        "key": "ctrl+[Minus]",
-        "command": "-workbench.action.navigateBack"
-    },
-    {
-        "key": "ctrl+[IntlRo]",
-        "command": "-workbench.action.navigateForward"
-    },
-    {
-        "key": "cmd+n",
-        "command": "-workbench.action.files.newUntitledFile"
-    }
+  {
+    "key": "ctrl+.",
+    "command": "workbench.action.nextEditor"
+  },
+  {
+    "key": "shift+cmd+]",
+    "command": "-workbench.action.nextEditor"
+  },
+  {
+    "key": "ctrl+,",
+    "command": "workbench.action.previousEditor"
+  },
+  {
+    "key": "shift+cmd+[",
+    "command": "-workbench.action.previousEditor"
+  },
+  {
+    "key": "ctrl+q",
+    "command": "workbench.action.closeActiveEditor"
+  },
+  {
+    "key": "cmd+w",
+    "command": "-workbench.action.closeActiveEditor"
+  },
+  {
+    "key": "ctrl+3",
+    "command": "-workbench.action.openEditorAtIndex3"
+  },
+  {
+    "key": "f12",
+    "command": "-editor.action.revealDefinition",
+    "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+  },
+  {
+    "key": "cmd+p",
+    "command": "-workbench.action.quickOpen"
+  },
+  {
+    "key": "ctrl+[Minus]",
+    "command": "-workbench.action.navigateBack"
+  },
+  {
+    "key": "ctrl+[IntlRo]",
+    "command": "-workbench.action.navigateForward"
+  },
+  {
+    "key": "cmd+n",
+    "command": "-workbench.action.files.newUntitledFile"
+  },
+  {
+    "key": "cmd+p",
+    "command": "-extension.GoToAnything"
+  }
 ]
