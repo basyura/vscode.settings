@@ -1,5 +1,5 @@
 {
-  "vim.leader": "m",
+  "vim.leader": "<Space>",
   "vim.timeout": 500,
   "vim.useSystemClipboard": true,
   "vim.scroll": 20,
@@ -47,10 +47,6 @@
     {
       "before": ["0"],
       "after": ["^"]
-    },
-    {
-      "before": ["U"],
-      "after": ["<C-r>"]
     },
     {
       "before": ["K"],
@@ -109,6 +105,22 @@
       "commands": [
         {
           "command": "workbench.action.gotoMethod"
+        }
+      ]
+    },
+    {
+      "before": ["u"],
+      "commands": [
+        {
+          "command": "undo"
+        }
+      ]
+    },
+    {
+      "before": ["U"],
+      "commands": [
+        {
+          "command": "redo"
         }
       ]
     }
