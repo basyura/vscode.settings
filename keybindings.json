@@ -38,10 +38,6 @@
     "command": "-workbench.action.quickOpen"
   },
   {
-    "key": "ctrl+[Minus]",
-    "command": "-workbench.action.navigateBack"
-  },
-  {
     "key": "ctrl+[IntlRo]",
     "command": "-workbench.action.navigateForward"
   },
@@ -52,5 +48,11 @@
   {
     "key": "cmd+p",
     "command": "-extension.GoToAnything"
+  },
+  {
+    "key": "ctrl+l",
+    "command" : "workbench.action.quickOpen", 
+    "args"   : "@",
+    "when"   : "editorTextFocus"
   }
 ]

@@ -101,14 +101,6 @@
       ]
     },
     {
-      "before": ["<C-l>"],
-      "commands": [
-        {
-          "command": "workbench.action.gotoMethod"
-        }
-      ]
-    },
-    {
       "before": ["u"],
       "commands": [
         {
@@ -123,7 +115,25 @@
           "command": "redo"
         }
       ]
+    },
+    {
+      "before": ["<C-o>"],
+      "commands": [
+        {
+          "command": "workbench.action.navigateBack"
+        }
+      ]
     }
+,
+    {
+      "before": ["<C-i>"],
+      "commands": [
+        {
+          "command": "workbench.action.navigateForward"
+        }
+      ]
+    }
+
   ],
   "vim.visualModeKeyBindings": [
     {
