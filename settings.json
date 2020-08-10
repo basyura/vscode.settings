@@ -1,5 +1,5 @@
 {
-  "vim.leader": "<Space>",
+  "vim.leader": "m",
   "vim.timeout": 500,
   "vim.useSystemClipboard": true,
   "vim.scroll": 20,
@@ -96,7 +96,7 @@
       "before": ["<C-k>"],
       "commands": [
         {
-          "command": "editor.action.revealDefinition"
+          "command": "extension.vim_ctrl+]"
         }
       ]
     },
@@ -115,25 +115,7 @@
           "command": "redo"
         }
       ]
-    },
-    {
-      "before": ["<C-o>"],
-      "commands": [
-        {
-          "command": "workbench.action.navigateBack"
-        }
-      ]
     }
-,
-    {
-      "before": ["<C-i>"],
-      "commands": [
-        {
-          "command": "workbench.action.navigateForward"
-        }
-      ]
-    }
-
   ],
   "vim.visualModeKeyBindings": [
     {
@@ -141,7 +123,7 @@
       "after": ["<Esc>"]
     },
     {
-      "before": ["v", "v"],
+      "before": ["v"],
       "after": ["$", "h"]
     },
     {
@@ -168,10 +150,8 @@
     "editorSuggestWidget.highlightForeground": "#ff9200",
     "list.focusBackground": "#ff000040"
   },
-  "python.jediEnabled": false,
   "outline.showVariables": false,
   "go.useLanguageServer": true,
-  "editor.parameterHints.enabled": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "search.quickOpen.includeHistory": false,
   "editor.formatOnSave": true,
@@ -180,5 +160,16 @@
   },
   "workbench.startupEditor": "newUntitledFile",
   "workbench.editor.showIcons": false,
-  "workbench.iconTheme": null
+  "workbench.iconTheme": null,
+  "prettier.disableLanguages": ["markdown"],
+  "workbench.statusBar.visible": true,
+  "editor.cursorSurroundingLines": 5,
+  "editor.parameterHints.enabled": false,
+  "python": {
+    "editor.formatOnSave": true,
+    "jediEnabled": false,
+    "languageServer": "Microsoft",
+    "showStartPage": false,
+    "pythonPath": "~/.pyenv/shims/python"
+  }
 }

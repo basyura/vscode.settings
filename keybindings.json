@@ -51,8 +51,8 @@
   },
   {
     "key": "ctrl+l",
-    "command" : "workbench.action.quickOpen", 
-    "args"   : "@",
-    "when"   : "editorTextFocus"
+    "command": "workbench.action.quickOpen",
+    "args": "@",
+    "when": "editorTextFocus"
   }
 ]
