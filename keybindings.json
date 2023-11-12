@@ -49,12 +49,6 @@
     "command": "-extension.GoToAnything"
   },
   {
-    "key": "ctrl+l",
-    "command": "workbench.action.quickOpen",
-    "args": "@",
-    "when": "editorTextFocus"
-  },
-  {
     "key": "ctrl+j",
     "command": "-workbench.action.togglePanel"
   }

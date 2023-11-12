@@ -218,6 +218,19 @@
           "command": "workbench.action.splitEditor"
         }
       ]
+    },
+    {
+      "before": [
+        "<C-l>"
+      ],
+      "commands": [
+        {
+          "command": "workbench.action.quickOpen",
+          "args": [
+            "@"
+          ]
+        }
+      ]
     }
   ],
   "vim.visualModeKeyBindings": [
