@@ -255,6 +255,7 @@
   "terminal.integrated.fontSize": 13,
   "editor.minimap.enabled": false,
   "breadcrumbs.enabled": false,
+  "editor.lightbulb.enabled": false,
   "workbench.colorCustomizations": {
     "editorSuggestWidget.selectedBackground": "#5e81ac",
     "editorSuggestWidget.highlightForeground": "#ff9200",
@@ -286,5 +287,6 @@
   },
   "editor.fontFamily": "HackGen, Consolas, 'Courier New', monospace",
   "workbench.sideBar.location": "right",
-  "workbench.activityBar.location": "top"
+  "workbench.activityBar.location": "top",
+  "git.ignoreMissingGitWarning": true
 }
