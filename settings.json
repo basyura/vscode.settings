@@ -101,7 +101,7 @@
     },
     {
       "before": [
-        "<C-n>"
+        "<Down>"
       ],
       "after": [],
       "commands": [
