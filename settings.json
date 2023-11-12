@@ -176,6 +176,14 @@
           "command": "redo"
         }
       ]
+    },
+    {
+      "before":["w","l"],
+      "after": ["<C-w>","l"]
+    },
+    {
+      "before":["w","h"],
+      "after": ["<C-w>","h"]
     }
   ],
   "vim.visualModeKeyBindings": [
