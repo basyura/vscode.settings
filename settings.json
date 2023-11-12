@@ -5,27 +5,54 @@
   "vim.scroll": 20,
   "vim.insertModeKeyBindings": [
     {
-      "before": ["<C-j>"],
-      "after": ["<Esc>"]
+      "before": [
+        "<C-j>"
+      ],
+      "after": [
+        "<Esc>"
+      ]
     },
     {
-      "before": ["<C-e>"],
-      "after": ["<Esc>", "$", "a"]
+      "before": [
+        "<C-e>"
+      ],
+      "after": [
+        "<Esc>",
+        "$",
+        "a"
+      ]
     },
     {
-      "before": ["<C-a>"],
-      "after": ["<Esc>", "0", "i"]
+      "before": [
+        "<C-a>"
+      ],
+      "after": [
+        "<Esc>",
+        "0",
+        "i"
+      ]
     },
     {
-      "before": ["<C-d>"],
-      "after": ["<Del>"]
+      "before": [
+        "<C-d>"
+      ],
+      "after": [
+        "<Del>"
+      ]
     },
     {
-      "before": ["<C-o>"],
-      "after": ["<Esc>", "o"]
+      "before": [
+        "<C-o>"
+      ],
+      "after": [
+        "<Esc>",
+        "o"
+      ]
     },
     {
-      "before": ["<C-k>"],
+      "before": [
+        "<C-k>"
+      ],
       "after": [],
       "commands": [
         {
@@ -37,19 +64,33 @@
   ],
   "vim.normalModeKeyBindings": [
     {
-      "before": ["<C-j>"],
-      "after": ["<Esc>"]
+      "before": [
+        "<C-j>"
+      ],
+      "after": [
+        "<Esc>"
+      ]
     },
     {
-      "before": ["<C-e>"],
-      "after": ["$"]
+      "before": [
+        "<C-e>"
+      ],
+      "after": [
+        "$"
+      ]
     },
     {
-      "before": ["0"],
-      "after": ["^"]
+      "before": [
+        "0"
+      ],
+      "after": [
+        "^"
+      ]
     },
     {
-      "before": ["K"],
+      "before": [
+        "K"
+      ],
       "after": [],
       "commands": [
         {
@@ -59,7 +100,9 @@
       ]
     },
     {
-      "before": ["<C-n>"],
+      "before": [
+        "<C-n>"
+      ],
       "after": [],
       "commands": [
         {
@@ -69,13 +112,22 @@
       ]
     },
     {
-      "before": ["I"],
-      "after": ["i", " ", "<Left>"]
+      "before": [
+        "I"
+      ],
+      "after": [
+        "i",
+        " ",
+        "<Left>"
+      ]
     }
   ],
   "vim.normalModeKeyBindingsNonRecursive": [
     {
-      "before": ["<Leader>", "c"],
+      "before": [
+        "<Leader>",
+        "c"
+      ],
       "after": [],
       "commands": [
         {
@@ -85,7 +137,10 @@
       ]
     },
     {
-      "before": ["<Leader>", "r"],
+      "before": [
+        "<Leader>",
+        "r"
+      ],
       "commands": [
         {
           "command": "editor.action.rename"
@@ -93,7 +148,9 @@
       ]
     },
     {
-      "before": ["<C-k>"],
+      "before": [
+        "<C-k>"
+      ],
       "commands": [
         {
           "command": "extension.vim_ctrl+]"
@@ -101,7 +158,9 @@
       ]
     },
     {
-      "before": ["u"],
+      "before": [
+        "u"
+      ],
       "commands": [
         {
           "command": "undo"
@@ -109,7 +168,9 @@
       ]
     },
     {
-      "before": ["U"],
+      "before": [
+        "U"
+      ],
       "commands": [
         {
           "command": "redo"
@@ -119,19 +180,36 @@
   ],
   "vim.visualModeKeyBindings": [
     {
-      "before": ["<C-j>"],
-      "after": ["<Esc>"]
+      "before": [
+        "<C-j>"
+      ],
+      "after": [
+        "<Esc>"
+      ]
     },
     {
-      "before": ["v"],
-      "after": ["$", "h"]
+      "before": [
+        "v"
+      ],
+      "after": [
+        "$",
+        "h"
+      ]
     },
     {
-      "before": ["<C-e>"],
-      "after": ["$", "h"]
+      "before": [
+        "<C-e>"
+      ],
+      "after": [
+        "$",
+        "h"
+      ]
     },
     {
-      "before": ["<Leader>", "c"],
+      "before": [
+        "<Leader>",
+        "c"
+      ],
       "after": [],
       "commands": [
         {
@@ -142,6 +220,7 @@
     }
   ],
   "editor.fontSize": 13,
+  "editor.lineHeight": 20,
   "terminal.integrated.fontSize": 13,
   "editor.minimap.enabled": false,
   "breadcrumbs.enabled": false,
@@ -161,7 +240,9 @@
   "workbench.startupEditor": "newUntitledFile",
   "workbench.editor.showIcons": false,
   "workbench.iconTheme": null,
-  "prettier.disableLanguages": ["markdown"],
+  "prettier.disableLanguages": [
+    "markdown"
+  ],
   "workbench.statusBar.visible": true,
   "editor.cursorSurroundingLines": 5,
   "editor.parameterHints.enabled": false,
@@ -171,5 +252,6 @@
     "languageServer": "Microsoft",
     "showStartPage": false,
     "pythonPath": "~/.pyenv/shims/python"
-  }
+  },
+  "workbench.activityBar.location": "top"
 }
