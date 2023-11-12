@@ -219,7 +219,7 @@
       ]
     }
   ],
-  "editor.fontSize": 13,
+  "editor.fontSize": 14,
   "editor.lineHeight": 20,
   "terminal.integrated.fontSize": 13,
   "editor.minimap.enabled": false,
@@ -253,5 +253,6 @@
     "showStartPage": false,
     "pythonPath": "~/.pyenv/shims/python"
   },
-  "workbench.activityBar.location": "top"
+  "workbench.activityBar.location": "top",
+  "editor.fontFamily": "HackGen, Consolas, 'Courier New', monospace"
 }
