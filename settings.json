@@ -178,12 +178,35 @@
       ]
     },
     {
-      "before":["w","l"],
-      "after": ["<C-w>","l"]
+      "before": [
+        "w",
+        "l"
+      ],
+      "after": [
+        "<C-w>",
+        "l"
+      ]
     },
     {
-      "before":["w","h"],
-      "after": ["<C-w>","h"]
+      "before": [
+        "w",
+        "h"
+      ],
+      "after": [
+        "<C-w>",
+        "h"
+      ]
+    },
+    {
+      "before": [
+        "v",
+        "s"
+      ],
+      "commands": [
+        {
+          "command": "workbench.action.splitEditor"
+        }
+      ]
     }
   ],
   "vim.visualModeKeyBindings": [
