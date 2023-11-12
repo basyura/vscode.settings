@@ -253,6 +253,7 @@
     "showStartPage": false,
     "pythonPath": "~/.pyenv/shims/python"
   },
-  "workbench.activityBar.location": "top",
-  "editor.fontFamily": "HackGen, Consolas, 'Courier New', monospace"
+  "editor.fontFamily": "HackGen, Consolas, 'Courier New', monospace",
+  "workbench.sideBar.location": "right",
+  "workbench.activityBar.location": "top"
 }
