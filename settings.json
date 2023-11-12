@@ -149,6 +149,17 @@
     },
     {
       "before": [
+        "<Leader>",
+        "o"
+      ],
+      "commands": [
+        {
+          "command": "workbench.action.files.openFolder"
+        }
+      ]
+    },
+    {
+      "before": [
         "<C-k>"
       ],
       "commands": [
