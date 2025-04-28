@@ -158,6 +158,23 @@
           "args": ["@"]
         }
       ]
+    },
+    {
+      "before": ["<C-x>", "<C-b>"],
+      "commands": [
+        {
+          "command": "workbench.action.tasks.runTask",
+          "args": "build"
+        }
+      ]
+    },
+    {
+      "before": ["<C-x>", "<C-l>"],
+      "commands": [
+        {
+          "command": "editor.action.marker.next"
+        }
+      ]
     }
   ],
   "vim.visualModeKeyBindings": [
