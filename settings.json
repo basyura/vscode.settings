@@ -5,54 +5,27 @@
   "vim.scroll": 20,
   "vim.insertModeKeyBindings": [
     {
-      "before": [
-        "<C-j>"
-      ],
-      "after": [
-        "<Esc>"
-      ]
+      "before": ["<C-j>"],
+      "after": ["<Esc>"]
     },
     {
-      "before": [
-        "<C-e>"
-      ],
-      "after": [
-        "<Esc>",
-        "$",
-        "a"
-      ]
+      "before": ["<C-e>"],
+      "after": ["<Esc>", "$", "a"]
     },
     {
-      "before": [
-        "<C-a>"
-      ],
-      "after": [
-        "<Esc>",
-        "0",
-        "i"
-      ]
+      "before": ["<C-a>"],
+      "after": ["<Esc>", "0", "i"]
     },
     {
-      "before": [
-        "<C-d>"
-      ],
-      "after": [
-        "<Del>"
-      ]
+      "before": ["<C-d>"],
+      "after": ["<Del>"]
     },
     {
-      "before": [
-        "<C-o>"
-      ],
-      "after": [
-        "<Esc>",
-        "o"
-      ]
+      "before": ["<C-o>"],
+      "after": ["<Esc>", "o"]
     },
     {
-      "before": [
-        "<C-k>"
-      ],
+      "before": ["<C-k>"],
       "after": [],
       "commands": [
         {
@@ -64,33 +37,19 @@
   ],
   "vim.normalModeKeyBindings": [
     {
-      "before": [
-        "<C-j>"
-      ],
-      "after": [
-        "<Esc>"
-      ]
+      "before": ["<C-j>"],
+      "after": ["<Esc>"]
     },
     {
-      "before": [
-        "<C-e>"
-      ],
-      "after": [
-        "$"
-      ]
+      "before": ["<C-e>"],
+      "after": ["$"]
     },
     {
-      "before": [
-        "0"
-      ],
-      "after": [
-        "^"
-      ]
+      "before": ["0"],
+      "after": ["^"]
     },
     {
-      "before": [
-        "K"
-      ],
+      "before": ["K"],
       "after": [],
       "commands": [
         {
@@ -100,9 +59,7 @@
       ]
     },
     {
-      "before": [
-        "<Down>"
-      ],
+      "before": ["<Down>"],
       "after": [],
       "commands": [
         {
@@ -112,22 +69,23 @@
       ]
     },
     {
-      "before": [
-        "I"
-      ],
-      "after": [
-        "i",
-        " ",
-        "<Left>"
+      "before": ["I"],
+      "after": ["i", " ", "<Left>"]
+    },
+    {
+      "before": ["?"],
+      "after": [],
+      "commands": [
+        {
+          "command": "editor.action.marker.next",
+          "args": []
+        }
       ]
     }
   ],
   "vim.normalModeKeyBindingsNonRecursive": [
     {
-      "before": [
-        "<Leader>",
-        "c"
-      ],
+      "before": ["<Leader>", "c"],
       "after": [],
       "commands": [
         {
@@ -137,10 +95,7 @@
       ]
     },
     {
-      "before": [
-        "<Leader>",
-        "r"
-      ],
+      "before": ["<Leader>", "r"],
       "commands": [
         {
           "command": "editor.action.rename"
@@ -148,10 +103,7 @@
       ]
     },
     {
-      "before": [
-        "<Leader>",
-        "o"
-      ],
+      "before": ["<Leader>", "o"],
       "commands": [
         {
           "command": "workbench.action.files.openFolder"
@@ -159,9 +111,7 @@
       ]
     },
     {
-      "before": [
-        "<C-k>"
-      ],
+      "before": ["<C-k>"],
       "commands": [
         {
           "command": "extension.vim_ctrl+]"
@@ -169,9 +119,7 @@
       ]
     },
     {
-      "before": [
-        "u"
-      ],
+      "before": ["u"],
       "commands": [
         {
           "command": "undo"
@@ -179,9 +127,7 @@
       ]
     },
     {
-      "before": [
-        "U"
-      ],
+      "before": ["U"],
       "commands": [
         {
           "command": "redo"
@@ -189,30 +135,15 @@
       ]
     },
     {
-      "before": [
-        "w",
-        "l"
-      ],
-      "after": [
-        "<C-w>",
-        "l"
-      ]
+      "before": ["w", "l"],
+      "after": ["<C-w>", "l"]
     },
     {
-      "before": [
-        "w",
-        "h"
-      ],
-      "after": [
-        "<C-w>",
-        "h"
-      ]
+      "before": ["w", "h"],
+      "after": ["<C-w>", "h"]
     },
     {
-      "before": [
-        "v",
-        "s"
-      ],
+      "before": ["v", "s"],
       "commands": [
         {
           "command": "workbench.action.splitEditor"
@@ -220,51 +151,30 @@
       ]
     },
     {
-      "before": [
-        "<C-l>"
-      ],
+      "before": ["<C-l>"],
       "commands": [
         {
           "command": "workbench.action.quickOpen",
-          "args": [
-            "@"
-          ]
+          "args": ["@"]
         }
       ]
     }
   ],
   "vim.visualModeKeyBindings": [
     {
-      "before": [
-        "<C-j>"
-      ],
-      "after": [
-        "<Esc>"
-      ]
+      "before": ["<C-j>"],
+      "after": ["<Esc>"]
     },
     {
-      "before": [
-        "v"
-      ],
-      "after": [
-        "$",
-        "h"
-      ]
+      "before": ["v"],
+      "after": ["$", "h"]
     },
     {
-      "before": [
-        "<C-e>"
-      ],
-      "after": [
-        "$",
-        "h"
-      ]
+      "before": ["<C-e>"],
+      "after": ["$", "h"]
     },
     {
-      "before": [
-        "<Leader>",
-        "c"
-      ],
+      "before": ["<Leader>", "c"],
       "after": [],
       "commands": [
         {
@@ -279,7 +189,7 @@
   "terminal.integrated.fontSize": 13,
   "editor.minimap.enabled": false,
   "breadcrumbs.enabled": false,
-  "editor.lightbulb.enabled": false,
+  "editor.lightbulb.enabled": "off",
   "workbench.colorCustomizations": {
     "editorSuggestWidget.selectedBackground": "#5e81ac",
     "editorSuggestWidget.highlightForeground": "#ff9200",
@@ -287,18 +197,23 @@
   },
   "outline.showVariables": false,
   "go.useLanguageServer": true,
+  "[go]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    },
+    "editor.defaultFormatter": "golang.go"
+  },
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "search.quickOpen.includeHistory": false,
   "editor.formatOnSave": true,
   "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "workbench.startupEditor": "newUntitledFile",
   "workbench.editor.showIcons": false,
   "workbench.iconTheme": null,
-  "prettier.disableLanguages": [
-    "markdown"
-  ],
+  "prettier.disableLanguages": ["markdown"],
   "workbench.statusBar.visible": true,
   "editor.cursorSurroundingLines": 5,
   "editor.parameterHints.enabled": false,
@@ -312,5 +227,8 @@
   "editor.fontFamily": "HackGen, Consolas, 'Courier New', monospace",
   "workbench.sideBar.location": "right",
   "workbench.activityBar.location": "top",
-  "git.ignoreMissingGitWarning": true
+  "git.ignoreMissingGitWarning": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "git.openRepositoryInParentFolders": "never",
+  "github.copilot.nextEditSuggestions.enabled": false
 }
